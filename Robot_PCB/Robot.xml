@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Nejc/Desktop/Sola/Strojna/Cetrti letnik/Line_following_robot/Robot_PCB/Robot.sch</source>
+    <date>24. 03. 2017 12:01:41</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Robot.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="QR2">
+      <value>QRE1113</value>
+      <footprint>robot_footprint:QRE1113GR</footprint>
+      <libsource lib="Robot" part="QRE1113"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B9DAD7</tstamp>
+    </comp>
+    <comp ref="QR3">
+      <value>QRE1113</value>
+      <footprint>robot_footprint:QRE1113GR</footprint>
+      <libsource lib="Robot" part="QRE1113"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B9DBCF</tstamp>
+    </comp>
+    <comp ref="QR4">
+      <value>QRE1113</value>
+      <footprint>robot_footprint:QRE1113GR</footprint>
+      <libsource lib="Robot" part="QRE1113"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B9DC02</tstamp>
+    </comp>
+    <comp ref="QR1">
+      <value>QRE1113</value>
+      <footprint>robot_footprint:QRE1113GR</footprint>
+      <libsource lib="Robot" part="QRE1113"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B9DCA6</tstamp>
+    </comp>
+    <comp ref="QR6">
+      <value>QRE1113</value>
+      <footprint>robot_footprint:QRE1113GR</footprint>
+      <libsource lib="Robot" part="QRE1113"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B9DF86</tstamp>
+    </comp>
+    <comp ref="QR7">
+      <value>QRE1113</value>
+      <footprint>robot_footprint:QRE1113GR</footprint>
+      <libsource lib="Robot" part="QRE1113"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B9DF8C</tstamp>
+    </comp>
+    <comp ref="QR8">
+      <value>QRE1113</value>
+      <footprint>robot_footprint:QRE1113GR</footprint>
+      <libsource lib="Robot" part="QRE1113"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B9DF92</tstamp>
+    </comp>
+    <comp ref="QR5">
+      <value>QRE1113</value>
+      <footprint>robot_footprint:QRE1113GR</footprint>
+      <libsource lib="Robot" part="QRE1113"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B9DF98</tstamp>
+    </comp>
+    <comp ref="ARD1">
+      <value>ArduinoMicro</value>
+      <footprint>robot_footprint:ARDUINO_MICRO_SHIELD</footprint>
+      <libsource lib="Robot" part="ArduinoMicro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B9EA59</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BA9EDB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BAAEF3</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BAB816</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BAB962</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BAB9EC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BAB9F2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BABBB7</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BABBBD</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BABBC3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BABBC9</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HCT4051</value>
+      <footprint>robot_footprint:Multiplexer_74HCT4051_SO16</footprint>
+      <libsource lib="Robot" part="74HCT4051"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BACE0B</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NPN_BCE</value>
+      <footprint>robot_footprint:NPN_transistor</footprint>
+      <libsource lib="device" part="Q_NPN_BCE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BAF86D</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L293</value>
+      <footprint>robot_footprint:Multiplexer_74HCT4051_SO16</footprint>
+      <libsource lib="Robot" part="L293"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BB33F6</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>RMotor</value>
+      <footprint>robot_footprint:EM_holder</footprint>
+      <libsource lib="Robot" part="Motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BB3493</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>LMotor</value>
+      <footprint>robot_footprint:EM_holder</footprint>
+      <libsource lib="Robot" part="Motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BB3549</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BB604B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BB669D</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>robot_footprint:battery_holder_1291</footprint>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C590D8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C593D4</tstamp>
+    </comp>
+    <comp ref="Sw1">
+      <value>Switch</value>
+      <footprint>robot_footprint:Switch_toggle</footprint>
+      <libsource lib="Robot" part="Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C5954A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C5AB65</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C5ABCC</tstamp>
+    </comp>
+    <comp ref="BT2">
+      <value>JY-MCU</value>
+      <footprint>robot_footprint:JY-MCU</footprint>
+      <libsource lib="Robot" part="JY-MCU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD92DC</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X05</value>
+      <footprint>robot_footprint:CONN_5x1</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D161A6</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X05</value>
+      <footprint>robot_footprint:CONN_5x1</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D16230</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Robot" part="74HCT4051">
+      <description>Multiplexer 8 to 1</description>
+      <docs>http://www.farnell.com/datasheets/2024221.pdf?_ga=1.117827849.1424309202.1488184426</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HCT4051</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y4" type="input"/>
+        <pin num="2" name="Y6" type="input"/>
+        <pin num="3" name="Z" type="input"/>
+        <pin num="4" name="Y7" type="input"/>
+        <pin num="5" name="Y5" type="input"/>
+        <pin num="6" name="E*" type="input"/>
+        <pin num="7" name="Vee" type="input"/>
+        <pin num="8" name="gnd" type="input"/>
+        <pin num="9" name="S2" type="input"/>
+        <pin num="10" name="S1" type="input"/>
+        <pin num="11" name="S0" type="input"/>
+        <pin num="12" name="Y3" type="input"/>
+        <pin num="13" name="Y0" type="input"/>
+        <pin num="14" name="Y1" type="input"/>
+        <pin num="15" name="Y2" type="input"/>
+        <pin num="16" name="Vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Robot" part="ArduinoMicro">
+      <description>Arduino Micro</description>
+      <fields>
+        <field name="Reference">ARD</field>
+        <field name="Value">ArduinoMicro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MOSI" type="input"/>
+        <pin num="2" name="RX_LED/SS" type="input"/>
+        <pin num="3" name="1/TX" type="input"/>
+        <pin num="4" name="0/RX" type="input"/>
+        <pin num="5" name="RESET" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="2/SDA" type="input"/>
+        <pin num="8" name="3(PWM)/SCL" type="input"/>
+        <pin num="9" name="4/A6" type="input"/>
+        <pin num="10" name="5(PWM)" type="input"/>
+        <pin num="11" name="6(PWM)/A7" type="input"/>
+        <pin num="12" name="7" type="input"/>
+        <pin num="13" name="8/A8" type="input"/>
+        <pin num="14" name="9(PWM)/A9" type="input"/>
+        <pin num="15" name="10(PWM)/A10" type="input"/>
+        <pin num="16" name="11(PWM)" type="input"/>
+        <pin num="17" name="12/A11" type="input"/>
+        <pin num="18" name="13(PWM)" type="input"/>
+        <pin num="19" name="3,3V" type="input"/>
+        <pin num="20" name="AREF" type="input"/>
+        <pin num="21" name="A0" type="input"/>
+        <pin num="22" name="A1" type="input"/>
+        <pin num="23" name="A2" type="input"/>
+        <pin num="24" name="A3" type="input"/>
+        <pin num="25" name="A4" type="input"/>
+        <pin num="26" name="A5" type="input"/>
+        <pin num="27" name="NC" type="input"/>
+        <pin num="28" name="NC" type="input"/>
+        <pin num="29" name="5V" type="input"/>
+        <pin num="30" name="RESET" type="input"/>
+        <pin num="31" name="GND" type="input"/>
+        <pin num="32" name="Vin" type="input"/>
+        <pin num="33" name="MISO" type="input"/>
+        <pin num="34" name="SCK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery_Cell">
+      <description>single battery cell</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector, single row, 01x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Robot" part="JY-MCU">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">JY-MCU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RX" type="input"/>
+        <pin num="2" name="TX" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Robot" part="L293">
+      <description>Motor driver</description>
+      <docs>http://si.farnell.com/webapp/wcs/stores/servlet/Search?pageSize=25&amp;st=l293&amp;catalogId=15001&amp;categoryId=700000004216&amp;langId=386&amp;storeId=10175</docs>
+      <fields>
+        <field name="Reference">L293</field>
+        <field name="Value">L293</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1,2EN" type="unspc"/>
+        <pin num="2" name="1A" type="unspc"/>
+        <pin num="3" name="1Y" type="unspc"/>
+        <pin num="4" name="gnd" type="unspc"/>
+        <pin num="5" name="gnd" type="unspc"/>
+        <pin num="6" name="2Y" type="unspc"/>
+        <pin num="7" name="2A" type="unspc"/>
+        <pin num="8" name="Vcc2" type="unspc"/>
+        <pin num="9" name="3,4EN" type="unspc"/>
+        <pin num="10" name="3A" type="unspc"/>
+        <pin num="11" name="3Y" type="unspc"/>
+        <pin num="12" name="gnd" type="unspc"/>
+        <pin num="13" name="gnd" type="unspc"/>
+        <pin num="14" name="4Y" type="unspc"/>
+        <pin num="15" name="4A" type="unspc"/>
+        <pin num="16" name="Vcc1" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Robot" part="Motor">
+      <description>Motor and decoder</description>
+      <docs>https://www.pololu.com/product/3072</docs>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="M1" type="input"/>
+        <pin num="2" name="M2" type="input"/>
+        <pin num="3" name="Vcc" type="input"/>
+        <pin num="4" name="OutA" type="input"/>
+        <pin num="5" name="OutB" type="input"/>
+        <pin num="6" name="gnd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Robot" part="QRE1113">
+      <description>IR senzor</description>
+      <docs>http://www.farnell.com/datasheets/2212320.pdf?_ga=1.183283366.1424309202.1488184426</docs>
+      <fields>
+        <field name="Reference">QR</field>
+        <field name="Value">QRE1113</field>
+        <field name="Footprint">robot_footprint:QRE1113GR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A+" type="unspc"/>
+        <pin num="2" name="C-" type="unspc"/>
+        <pin num="3" name="COL" type="unspc"/>
+        <pin num="4" name="EM" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_BCE">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Robot" part="Switch">
+      <fields>
+        <field name="Reference">Sw</field>
+        <field name="Value">Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1-2" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3-2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="Robot">
+      <uri>C:\Users\Nejc\Desktop\Sola\Strojna\Cetrti letnik\Line_following_robot\Robot_PCB\Robot.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="L1" pin="3"/>
+      <node ref="M1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad2)">
+      <node ref="M1" pin="2"/>
+      <node ref="L1" pin="6"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="QR2" pin="4"/>
+      <node ref="QR6" pin="4"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="QR3" pin="4"/>
+      <node ref="QR4" pin="4"/>
+      <node ref="QR1" pin="4"/>
+      <node ref="QR8" pin="4"/>
+      <node ref="M1" pin="6"/>
+      <node ref="BT2" pin="3"/>
+      <node ref="QR7" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="6"/>
+      <node ref="Sw1" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P2" pin="3"/>
+      <node ref="P1" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="L1" pin="12"/>
+      <node ref="L1" pin="13"/>
+      <node ref="M2" pin="6"/>
+      <node ref="ARD1" pin="6"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="QR5" pin="4"/>
+      <node ref="L1" pin="4"/>
+      <node ref="L1" pin="5"/>
+      <node ref="ARD1" pin="31"/>
+    </net>
+    <net code="4" name="PWMR1">
+      <node ref="L1" pin="10"/>
+      <node ref="ARD1" pin="15"/>
+    </net>
+    <net code="5" name="PWMR2">
+      <node ref="ARD1" pin="14"/>
+      <node ref="L1" pin="15"/>
+    </net>
+    <net code="6" name="PWML2">
+      <node ref="ARD1" pin="11"/>
+      <node ref="L1" pin="7"/>
+    </net>
+    <net code="7" name="PWML1">
+      <node ref="ARD1" pin="10"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="8" name="EncLA">
+      <node ref="ARD1" pin="7"/>
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="9" name="+9V">
+      <node ref="R1" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Sw1" pin="2"/>
+      <node ref="L1" pin="8"/>
+      <node ref="ARD1" pin="32"/>
+      <node ref="R11" pin="1"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C3-Pad2)">
+      <node ref="M2" pin="2"/>
+      <node ref="L1" pin="11"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="11" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="M2" pin="1"/>
+      <node ref="L1" pin="14"/>
+    </net>
+    <net code="12" name="EncRB">
+      <node ref="ARD1" pin="3"/>
+      <node ref="M2" pin="5"/>
+    </net>
+    <net code="13" name="EncRA">
+      <node ref="ARD1" pin="8"/>
+      <node ref="M2" pin="4"/>
+    </net>
+    <net code="14" name="+5V">
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="ARD1" pin="29"/>
+      <node ref="P1" pin="1"/>
+      <node ref="M2" pin="3"/>
+      <node ref="P2" pin="1"/>
+      <node ref="L1" pin="16"/>
+      <node ref="L1" pin="1"/>
+      <node ref="L1" pin="9"/>
+      <node ref="M1" pin="3"/>
+      <node ref="BT2" pin="4"/>
+    </net>
+    <net code="15" name="D_on">
+      <node ref="Q1" pin="1"/>
+      <node ref="ARD1" pin="9"/>
+      <node ref="P2" pin="5"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="16" name="EncLB">
+      <node ref="M1" pin="5"/>
+      <node ref="ARD1" pin="4"/>
+    </net>
+    <net code="17" name="Net-(ARD1-Pad19)">
+      <node ref="ARD1" pin="19"/>
+    </net>
+    <net code="18" name="Net-(ARD1-Pad16)">
+      <node ref="ARD1" pin="16"/>
+    </net>
+    <net code="19" name="Net-(ARD1-Pad2)">
+      <node ref="ARD1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(ARD1-Pad1)">
+      <node ref="ARD1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(ARD1-Pad34)">
+      <node ref="ARD1" pin="34"/>
+    </net>
+    <net code="22" name="Net-(ARD1-Pad33)">
+      <node ref="ARD1" pin="33"/>
+    </net>
+    <net code="23" name="Net-(ARD1-Pad30)">
+      <node ref="ARD1" pin="30"/>
+    </net>
+    <net code="24" name="Net-(ARD1-Pad28)">
+      <node ref="ARD1" pin="28"/>
+    </net>
+    <net code="25" name="Net-(ARD1-Pad27)">
+      <node ref="ARD1" pin="27"/>
+    </net>
+    <net code="26" name="Net-(ARD1-Pad26)">
+      <node ref="ARD1" pin="26"/>
+    </net>
+    <net code="27" name="Net-(ARD1-Pad25)">
+      <node ref="ARD1" pin="25"/>
+    </net>
+    <net code="28" name="Net-(ARD1-Pad20)">
+      <node ref="ARD1" pin="20"/>
+    </net>
+    <net code="29" name="Net-(ARD1-Pad18)">
+      <node ref="ARD1" pin="18"/>
+    </net>
+    <net code="30" name="Batt">
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="ARD1" pin="22"/>
+    </net>
+    <net code="31" name="Mux">
+      <node ref="ARD1" pin="21"/>
+      <node ref="U1" pin="3"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="32" name="Net-(ARD1-Pad23)">
+      <node ref="BT2" pin="1"/>
+      <node ref="ARD1" pin="23"/>
+    </net>
+    <net code="33" name="Net-(ARD1-Pad24)">
+      <node ref="ARD1" pin="24"/>
+      <node ref="BT2" pin="2"/>
+    </net>
+    <net code="34" name="Net-(ARD1-Pad5)">
+      <node ref="ARD1" pin="5"/>
+    </net>
+    <net code="35" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Sw1" pin="1"/>
+    </net>
+    <net code="36" name="Net-(QR1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="QR1" pin="1"/>
+    </net>
+    <net code="37" name="Net-(QR7-Pad2)">
+      <node ref="QR8" pin="1"/>
+      <node ref="QR7" pin="2"/>
+    </net>
+    <net code="38" name="Net-(QR6-Pad2)">
+      <node ref="QR7" pin="1"/>
+      <node ref="QR6" pin="2"/>
+    </net>
+    <net code="39" name="Net-(QR5-Pad2)">
+      <node ref="QR6" pin="1"/>
+      <node ref="QR5" pin="2"/>
+    </net>
+    <net code="40" name="Net-(QR5-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="QR5" pin="1"/>
+    </net>
+    <net code="41" name="Net-(QR3-Pad2)">
+      <node ref="QR3" pin="2"/>
+      <node ref="QR4" pin="1"/>
+    </net>
+    <net code="42" name="Net-(QR2-Pad2)">
+      <node ref="QR2" pin="2"/>
+      <node ref="QR3" pin="1"/>
+    </net>
+    <net code="43" name="Net-(QR1-Pad2)">
+      <node ref="QR2" pin="1"/>
+      <node ref="QR1" pin="2"/>
+    </net>
+    <net code="44" name="S2">
+      <node ref="ARD1" pin="17"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="45" name="Net-(Q1-Pad2)">
+      <node ref="QR8" pin="2"/>
+      <node ref="QR4" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="46" name="S0">
+      <node ref="ARD1" pin="12"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="47" name="Net-(QR5-Pad3)">
+      <node ref="QR5" pin="3"/>
+      <node ref="U1" pin="13"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="48" name="Net-(QR1-Pad3)">
+      <node ref="U1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="QR1" pin="3"/>
+    </net>
+    <net code="49" name="S1">
+      <node ref="U1" pin="10"/>
+      <node ref="ARD1" pin="13"/>
+    </net>
+    <net code="50" name="Net-(QR3-Pad3)">
+      <node ref="QR3" pin="3"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="51" name="Net-(QR4-Pad3)">
+      <node ref="U1" pin="4"/>
+      <node ref="QR4" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="52" name="Net-(QR6-Pad3)">
+      <node ref="R8" pin="2"/>
+      <node ref="QR6" pin="3"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="53" name="Net-(QR8-Pad3)">
+      <node ref="QR8" pin="3"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="54" name="Net-(QR2-Pad3)">
+      <node ref="R4" pin="2"/>
+      <node ref="QR2" pin="3"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="55" name="Net-(QR7-Pad3)">
+      <node ref="U1" pin="15"/>
+      <node ref="R9" pin="2"/>
+      <node ref="QR7" pin="3"/>
+    </net>
+  </nets>
+</export>

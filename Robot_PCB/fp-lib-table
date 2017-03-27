@@ -1,3 +1,11 @@
 (fp_lib_table
   (lib (name robot_footprint)(type KiCad)(uri "$(KIPRJMOD)\\robot_footprint.pretty")(options "")(descr ""))
+  (lib (name Capacitors_SMD)(type KiCad)(uri "$(KISYSMOD)\\Capacitors_SMD.pretty")(options "")(descr ""))
+  (lib (name Resistors_SMD)(type KiCad)(uri "$(KISYSMOD)\\Resistors_SMD.pretty")(options "")(descr ""))
+  (lib (name Connectors)(type KiCad)(uri "$(KISYSMOD)\\Connectors.pretty")(options "")(descr ""))
+  (lib (name Connect)(type KiCad)(uri "$(KISYSMOD)\\Connect.pretty")(options "")(descr ""))
+  (lib (name Battery_Holders)(type KiCad)(uri "$(KISYSMOD)\\Battery_Holders.pretty")(options "")(descr ""))
+  (lib (name LEDs)(type KiCad)(uri "$(KISYSMOD)\\LEDs.pretty")(options "")(descr ""))
+  (lib (name Terminal_Blocks)(type KiCad)(uri "$(KISYSMOD)\\Terminal_Blocks.pretty")(options "")(descr ""))
+  (lib (name Transistors_OldSowjetAera)(type KiCad)(uri "$(KISYSMOD)\\Transistors_OldSowjetAera.pretty")(options "")(descr ""))
 )

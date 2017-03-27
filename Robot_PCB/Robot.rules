@@ -1,0 +1,148 @@
+
+(rules PCB Robot
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3202)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 300.0)
+    (clear 200.2)
+    (clear 150.0 (type smd_to_turn_gap))
+    (clear 300.2 (type default_5V))
+    (clear 400.2 (type default_9V))
+    (clear 400.2 (type default_gnd))
+    (clear 50.0 (type smd_smd))
+    (clear 300.2 (type smd_5V))
+    (clear 400.2 (type smd_9V))
+    (clear 400.2 (type smd_gnd))
+    (clear 300.2 (type "kicad_default"_5V))
+    (clear 400.2 (type "kicad_default"_9V))
+    (clear 400.2 (type "kicad_default"_gnd))
+    (clear 300.2 (type 5V_5V))
+    (clear 400.2 (type 5V_9V))
+    (clear 400.2 (type 5V_gnd))
+    (clear 400.2 (type 9V_9V))
+    (clear 400.2 (type 9V_gnd))
+    (clear 400.2 (type gnd_gnd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-5V" "Via[0-1]_600:400_um" 5V
+  )
+  (via 
+    "Via[0-1]_600:400_um-9V" "Via[0-1]_600:400_um" 9V
+  )
+  (via 
+    "Via[0-1]_600:400_um-gnd" "Via[0-1]_600:400_um" gnd
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    5V "Via[0-1]_600:400_um-5V"
+  )
+  (via_rule
+    9V "Via[0-1]_600:400_um-9V"
+  )
+  (via_rule
+    gnd "Via[0-1]_600:400_um-gnd"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    S1 "Net-(ARD1-Pad2)" EncRB EncLB "Net-(ARD1-Pad5)" EncLA EncRA "D_on"
+    PWML1 PWML2 S0 "Net-(BT1-Pad1)" "Net-(ARD1-Pad24)" "Net-(ARD1-Pad23)" "Net-(C2-Pad1)" "Net-(C2-Pad2)"
+    "Net-(C3-Pad1)" "Net-(C3-Pad2)" PWMR1 PWMR2 Mux "Net-(Q1-Pad2)" "Net-(QR1-Pad1)" "Net-(QR1-Pad2)"
+    "Net-(QR1-Pad3)" "Net-(QR2-Pad2)" "Net-(QR2-Pad3)" "Net-(QR3-Pad2)" "Net-(QR3-Pad3)" "Net-(QR4-Pad3)" "Net-(QR5-Pad1)" "Net-(QR5-Pad2)"
+    "Net-(QR5-Pad3)" "Net-(QR6-Pad2)" "Net-(QR6-Pad3)" "Net-(QR7-Pad2)" "Net-(QR7-Pad3)" "Net-(QR8-Pad3)" Batt S2
+    "Net-(ARD1-Pad18)" "Net-(ARD1-Pad1)" "Net-(ARD1-Pad16)" "Net-(ARD1-Pad19)" "Net-(ARD1-Pad20)" "Net-(ARD1-Pad25)" "Net-(ARD1-Pad26)" "Net-(ARD1-Pad27)"
+    "Net-(ARD1-Pad28)" "Net-(ARD1-Pad30)" "Net-(ARD1-Pad33)" "Net-(ARD1-Pad34)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 5V
+    +5V
+    (clearance_class 5V)
+    (via_rule 5V)
+    (rule
+      (width 600.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 9V
+    +9V
+    (clearance_class 9V)
+    (via_rule 9V)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class gnd
+    GND
+    (clearance_class gnd)
+    (via_rule gnd)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
